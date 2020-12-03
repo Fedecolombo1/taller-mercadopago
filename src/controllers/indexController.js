@@ -93,14 +93,14 @@ module.exports = {
             external_reference:"colombofederico17@gmail.com",
 
             back_urls: {
-                success: "http://localhost:3000/callback?status=success",
+                success: "https://mercadopagodh.herokuapp.com/callback?status=success",
 
-                pending: "http://localhost:3000/callback?status=pending",
+                pending: "https://mercadopagodh.herokuapp.com/callback?status=pending",
 
-                failure: "http://localhost:3000/callback?status=failure"
+                failure: "https://mercadopagodh.herokuapp.com/callback?status=failure"
             },
 
-            notification_url: "http://localhost:3000/notifications",
+            notification_url: "https://mercadopagodh.herokuapp.com/notifications",
         }
 
         console.log(preference.items[0]);
